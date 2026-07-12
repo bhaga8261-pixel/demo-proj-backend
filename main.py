@@ -44,6 +44,13 @@ allowed_origins = [
 
 
 
+
+
+
+
+
+
+
 if FRONTEND_URL:
     allowed_origins.append(FRONTEND_URL)
 
