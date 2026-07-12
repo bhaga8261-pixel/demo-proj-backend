@@ -42,6 +42,8 @@ allowed_origins = [
     "https://demo-proj-frontend.vercel.app", # Current Netlify live app
 ]
 
+
+
 if FRONTEND_URL:
     allowed_origins.append(FRONTEND_URL)
 
